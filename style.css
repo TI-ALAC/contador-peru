@@ -45,76 +45,59 @@ img {
     display: block;
 }
 
-/* Responsive design */
-@media only screen and (max-width: 768px) {
-    .countdown {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-bottom: 20px; */
-        margin-top: 20% !important;
-    }
-
-    .time-section {
-        text-align: center;
-        margin: 0 45px !important;
-    }
-    
-    .time {
-        font-family: 'MYRIADPRO', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 72pt !important;
-        color: white;
-        display: block;
-    }
-
-}
-
-
-
-/* Responsive design */
+/* Responsive design for max-width: 1040px */
 @media only screen and (max-width: 1040px) {
     .countdown {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-bottom: 20px; */
-        margin-top: 18% !important;
+        margin-top: 17% !important;
     }
 
     .time-section {
         text-align: center;
-        margin: 0 81px !important;
+        margin: 0 79px !important;
     }
     
     .time {
-        font-family: 'MYRIADPRO', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 80pt !important;
-        color: white;
-        display: block;
+        font-size: 80pt !important; /* Ajusta el tamaño según sea necesario */
     }
 }
 
-
-/* Responsive design */
+/* Responsive design for max-width: 800px */
 @media only screen and (max-width: 800px) {
     .countdown {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-bottom: 20px; */
         margin-top: 21% !important;
     }
 
     .time-section {
         text-align: center;
-        margin: 0 46px !important;
+        margin: 0 52px !important;
     }
     
     .time {
-        font-family: 'MYRIADPRO', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 80pt !important;
-        color: white;
-        display: block;
+        font-size: 65pt !important; /* Ajusta el tamaño según sea necesario */
     }
 }
 
+/* Responsive design for max-width: 768px */
+@media only screen and (max-width: 768px) {
+    .countdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20% !important;
+    }
+
+    .time-section {
+        text-align: center;
+        margin: 0 54px !important;
+    }
+    
+    .time {
+        font-size: 60pt !important; /* Ajusta el tamaño según sea necesario */
+    }
+}
